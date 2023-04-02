@@ -1,0 +1,47 @@
+marconi@DESKTOP-U656BRQ MINGW64 /m/SI_2023_lab1_213191 (master)
+$ git log
+commit 84662d9d6f23d167c565d11d68d852bd708d4ece (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 23:47:22 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 5c4021c0014229b05b8aa669745fda7b454b2332
+Merge: 63633fa 8ba4a2d
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 23:55:00 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 8ba4a2dcbea02601ed81faacdd7b2f0b80bcd467 (origin/bug2, bug2)
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 23:40:50 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 63633fa62000c9d1e75dfa490c0a2db9bd21c14d (origin/bug1, bug1)
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 23:36:12 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 39928b284931b9d4f49ff7956feafb957c62f06d
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 23:25:42 2023 +0200
+
+    Fix wrong loop for reading
+
+commit fb9138b85c646337ac617f520ccc085616dcdb29
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 22:45:19 2023 +0200
+
+    Add java class
+
+commit 673e9cee1644f41925af6e5c8c03ca0fa309af91
+Author: Markofx <markolazarevskif@gmail.com>
+Date:   Sun Apr 2 22:40:46 2023 +0200
+
+    Initial commit
+
+marconi@DESKTOP-U656BRQ MINGW64 /m/SI_2023_lab1_213191 (master)
+
