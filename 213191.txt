@@ -67,6 +67,9 @@ Changes not staged for commit:
 
 26. $ git push --force --all
 
+27. $ git add 213191.txt logs.txt
+    $ git commit -m "Final commit"
+
 28. $ git push --all
 
 
