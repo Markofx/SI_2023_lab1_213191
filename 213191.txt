@@ -1,76 +1,76 @@
-4. $ git init
+4. $ git init -> иницијализација на фолдерот
 Initialized empty Git repository in M:/SI_2023_lab1_213191/.git/
 
-5. $ git remote add origin https://github.com/Markofx/SI_2023_lab1_213191.git
+5. $ git remote add origin https://github.com/Markofx/SI_2023_lab1_213191.git -> додавање нов remote репозиториум
 
-6. $ git add .
-   $ git commit -m "Initial commit"
+6. $ git add . -> сите фајлови моментлано се staged
+   $ git commit -m "Initial commit" -> фајлот иде од staged во unmodified
 
-7. $ git add SILab1.java
-   $ git commit -m "Add java class"
+7. $ git add SILab1.java -> фајлот моментално е staged
+   $ git commit -m "Add java class" -> фајлот иде од staged во unmodified
 
-8. $ git push origin master
+8. $ git push origin master -> push на сите staged фајлови кон репозиториумот
 
-9. $ git branch bug1
-   $ git branch bug2
-   $ git branch bug3
+9. $ git branch bug1 -> креирање нов branch
+   $ git branch bug2 -> креирање нов branch
+   $ git branch bug3 -> креирање нов branch
 
-10. $ git checkout bug1
+10. $ git checkout bug1 -> моментално лоциран на bug1
 
-11. $ git status
+11. $ git status -> информации за статусот
 On branch bug1
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   SILab1.java
 
-    $ git add SILab1.java
-    $ git commit -m"Fix wrong loop for reading"
-    $ git push origin bug1
+    $ git add SILab1.java -> фајлот моментално е staged
+    $ git commit -m"Fix wrong loop for reading" -> фајлот иде од staged во unmodified
+    $ git push origin bug1 -> push на фајлот кон репозиториумот
 
-12. $ git checkout bug2
+12. $ git checkout bug2 -> моментално лоциран на bug2
 
-13. $ git status
+13. $ git status -> информации за статусот
 	modified:   SILab1.java
-    $ git add SILab1.java
-    $ git commit -m "Fix wrong condition in filterOddNumbers"
-    $ git push origin bug2
+    $ git add SILab1.java -> фајлот моментално е staged
+    $ git commit -m "Fix wrong condition in filterOddNumbers" -> фајлот иде од staged во unmodified
+    $ git push origin bug2 -> push на фајлот кон репозиториумот
 
 
-14. $ git checkout bug3
+14. $ git checkout bug3 -> моментално лоциран на bug3
 
 15. $ git status
 	modified:   SILab1.java
-    $ git add SILab1.java
-    $ git commit -m "Fix wrong condition in sumEvenNumbers"
-    $ git push origin bug3
+    $ git add SILab1.java -> фајлот моментално е staged
+    $ git commit -m "Fix wrong condition in sumEvenNumbers" -> фајлот иде од staged во unmodified
+    $ git push origin bug3 -> push на фајлот кон репозиториумот
 
-16. $ git push --all
+16. $ git push --all -> push на сите staged фајлови кон репозиториумот
 
-17. $ git checkout master
+17. $ git checkout master -> моментално лоциран на master
 
-18. $ git merge bug1
+18. $ git merge bug1 -> спојување на master со bug1
 
-19. $ git push --all
+19. $ git push --all -> push на сите staged фајлови кон репозиториумот
 
-20. $ git merge bug2
+20. $ git merge bug2 -> спојување на master со bug2
 
-21. $ git push --all
+21. $ git push --all -> push на сите staged фајлови кон репозиториумот
 
-22. $ git checkout bug3
+22. $ git checkout bug3 -> моментално лоциран на bug3
 
-23. $ git rebase master
+23. $ git rebase master -> повлекување на сите фајлови од мастер кон bug3
 
-24. $ git checkout master
+24. $ git checkout master -> моментално лоциран на master
 
-25. $ git merge bug3
+25. $ git merge bug3 -> повлекување на сите фајлови од bug3 кон мастер
 
-26. $ git push --force --all
+26. $ git push --force --all -> push на сите staged фајлови кон репозиториумот 
+ 
+27. $ git add 213191.txt logs.txt -> фајлот моментално е staged
+    $ git commit -m "Final commit" -> фајлот иде од staged во unmodified
 
-27. $ git add 213191.txt logs.txt
-    $ git commit -m "Final commit"
-
-28. $ git push --all
+28. $ git push --all -> push на сите staged фајлови кон репозиториумот 
 
 
 
